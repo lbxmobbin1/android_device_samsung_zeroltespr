@@ -1,3 +1,3 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/device.mk \
-    $(LOCAL_DIR)/omni_zeroltezt.mk
+    $(LOCAL_DIR)/omni_zeroltespr.mk
