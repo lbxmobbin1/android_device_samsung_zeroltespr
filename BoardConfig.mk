@@ -1,4 +1,4 @@
-LOCAL_PATH := device/samsung/zeroltezt
+LOCAL_PATH := device/samsung/zeroltespr
 
 # Architecture
 TARGET_ARCH := arm64
@@ -19,7 +19,7 @@ TARGET_BOOTLOADER_BOARD_NAME := universal7420
 TARGET_NO_BOOTLOADER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zeroltezt
+TARGET_OTA_ASSERT_DEVICE := zeroltespr
 
 # Platform
 BOARD_VENDOR := samsung
@@ -42,10 +42,10 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_USES_UNCOMPRESSED_KERNEL := true
 #TARGET_KERNEL_SOURCE := kernel/samsung/exynos7420
-#TARGET_KERNEL_CONFIG := exynos7420-zerolte_tmo_defconfig
+#TARGET_KERNEL_CONFIG := exynos7420-zeroltespr_defconfig
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernAl
 
-TARGET_RECOVERY_INITRC := device/samsung/zeroltetmo/init.rc
+TARGET_RECOVERY_INITRC := device/samsung/zeroltespr/init.rc
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 24164353
@@ -56,7 +56,7 @@ BOARD_FLASH_BLOCK_SIZE := 2048
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-	device/samsung/zeroltetmo/sepolicy
+	device/samsung/zeroltespr/sepolicy
 
 BOARD_SEPOLICY_UNION += \
 	file_contexts \
