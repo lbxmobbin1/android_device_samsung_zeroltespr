@@ -1,8 +1,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/samsung/zeroltezt/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/zeroltespr/overlay
 
-LOCAL_PATH := device/samsung/zeroltezt
+LOCAL_PATH := device/samsung/zeroltespr
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernAl
 else
@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_NAME := omni_zeroltezt
-PRODUCT_DEVICE := zeroltezt
+PRODUCT_NAME := omni_zeroltespr
+PRODUCT_DEVICE := zeroltespr
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := zeroltezt
+PRODUCT_MODEL := zeroltespr
